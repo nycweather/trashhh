@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.button-container {
+  width: 500px;
+  padding: 15px 0;
+  text-align: right;
+  margin: 20px 10px;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 2px solid #e151bf;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  bottom: -50px;
+  right: 100px;
+}
+
+.centered-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+  text-align: center; /* Center text horizontally */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  transition: background-color 0.3s, transform 0.2s; /* Add smooth transitions */
+} 
+
+.centered-button:hover {
+  background-color: #0056b3; /* Darker background color on hover */
+  transform: scale(1.05); /* Slight scale-up effect on hover */
+}
